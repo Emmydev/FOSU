@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en" class=" js csstransitions desktop portrait csstransforms csstransforms3d">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Basic -->
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- Site Metas -->
+<title>FOSU - Home Page</title>
+<meta name="keywords" content="Fosu, Federation of Ogidi Student Union, Student Union">
+<meta name="description" content="The name FOSU is an acronym for Federation of Ogidi student union. FOSU became a registered union in 2007. The Union was formed for the purpose of promoting justice and equity.">
+<meta name="author" content="FOSU">
+
+<!-- Site Icons -->
+<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/logo.png">
+   
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Site CSS -->
+<link rel="stylesheet" href="css/style.css">
+<!-- Colors CSS -->
+<link rel="stylesheet" href="css/colors.css">
+<!-- ALL VERSION CSS -->
+<link rel="stylesheet" href="css/versions.css">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="css/responsive.css">
+
+ <!-- Nivo Slider Theme -->
+<link href="css/nivo-slider-theme.css" rel="stylesheet">
+<!-- Custom CSS -->
+<!--<link rel="stylesheet" href="css/custom.css">-->
+
+    <!-- Libraries CSS Files -->
+  <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+ <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+
+<!-- Modernizer for Portfolio -->
+<script src="js/modernizer.js.download"></script>
+
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+
+        .team {
+            padding: 100px 0 40px;
+            position: relative;
+        }
+
+        .our-team .team-row {
+            margin-left: -40px;
+            margin-right: -40px;
+        }
+
+        .our-team .team-wrap {
+            padding: 0 40px;
+        }
+
+        .our-team .container-fluid {
+            padding: 0 50px;
+        }
+
+        .team-img img {
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .team-member {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .team-img {
+            position: relative;
+            overflow: hidden;
+            margin-top: 20px;
+            border-radius: 4px 4px 0 0;
+            box-shadow: 1px 1px 10px #ddd;
+        }
+
+        .team-title {
+            margin: 10px 0 7px;
+            font-size: 20px;
+            font-weight: 700;
+            color: #000000;
+            text-transform: uppercase;
+        }
+
+        .team-member span {
+            font-size: 16px;
+            color: #444444;
+            font-weight: 400;
+            text-transform: capitalize;
+        }
+
+        .overlay-team {
+            background-color: rgba(20, 20, 20, .7);
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+        }
+
+        .team-details {
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            padding: 5%;
+            overflow: hidden;
+            width: 100%;
+            z-index: 2;
+            -webkit-transition: all .4s ease-in-out;
+            -moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+        }
+
+        .team-img:hover .team-details {
+            opacity: 1;
+            margin-top: -80px;
+        }
+
+        .team-img:hover .overlay-team {
+            opacity: 1;
+        }
+
+        .team-member:hover h6 {
+            color: #002147;
+            font-weight: bold;
+        }
+
+        .socials a {
+            display: inline-block;
+            margin-top: 40px;
+            margin-right: 5px;
+        }
+
+            .socials a i {
+                color: #fff;
+                font-size: 18px;
+                display: block;
+                width: 42px;
+                height: 42px;
+                border-radius: 50%;
+                line-height: 44px;
+                text-align: center;
+                transition: all .3s ease 0s;
+                background: rgba(255, 255, 255, 0.5);
+            }
+
+        .team-details .socials i {
+            color: #fff;
+        }
+
+        .team-details p {
+            color: #fff;
+        }
+
+        .socials a:hover i {
+            color: #fff;
+            background: #34a095;
+        }
+        /**************************/
+        /****** modal-SM stips *********/
+        /**************************/
+
+        #subscribeModal .modal-content {
+            overflow: hidden;
+        }
+
+     
+        #subscribeModal .form-control {
+            height: 56px;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            padding-left: 30px;
+        }
+
+        #subscribeModal .btn {
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            padding-right: 20px;
+            background: #007b5e;
+            border-color: #007b5e;
+        }
+
+        #subscribeModal .form-control:focus {
+            color: #495057;
+            background-color: #fff;
+            border-color: #007b5e;
+            outline: 0;
+            box-shadow: none;
+        }
+
+        #subscribeModal .top-strip {
+            height: 155px;
+            background: #007b5e;
+            transform: rotate(141deg);
+            margin-top: -94px;
+            margin-right: 190px;
+            margin-left: -130px;
+            border-bottom: 65px solid #4CAF50;
+            border-top: 10px solid #4caf50;
+        }
+
+        #subscribeModal .bottom-strip {
+            height: 155px;
+            background: #007b5e;
+            transform: rotate(112deg);
+            margin-top: -110px;
+            margin-right: -215px;
+            margin-left: 300px;
+            border-bottom: 65px solid #4CAF50;
+            border-top: 10px solid #4caf50;
+        }
+
+        /**************************/
+        /****** modal-lg stips *********/
+        /**************************/
+        #subscribeModal .modal-lg .top-strip {
+            height: 155px;
+            background: #007b5e;
+            transform: rotate(141deg);
+            margin-top: -106px;
+            margin-right: 457px;
+            margin-left: -130px;
+            border-bottom: 65px solid #4CAF50;
+            border-top: 10px solid #4caf50;
+        }
+
+        #subscribeModal .modal-lg .bottom-strip {
+            height: 155px;
+            background: #007b5e;
+            transform: rotate(135deg);
+            margin-top: -115px;
+            margin-right: -339px;
+            margin-left: 421px;
+            border-bottom: 65px solid #4CAF50;
+            border-top: 10px solid #4caf50;
+        }
+
+        /****** extra *******/
+        #Reloadpage {
+            cursor: pointer;
+        }
+    </style>
+<script type="text/javascript" src="js/p1.0-SNAPSHOT.142,835.do&amp;a=true&amp;e=click&amp;ab=false"></script>
+</head>
+
+<body class="host_version" style="">
+  
+    <!-- END LOADER -->
+    <header class="header header_style_01 fixed-menu">
+        <nav class="megamenu navbar navbar-default">
+            <div class="container" style="padding-left:0 !important; padding-right:0 !important;">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="img/fosu_logo.jpg" alt="Fosu Logo" height="60"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="executives.html">Executives</a></li>
+                        <li><a href="biography.html">Biography</a></li>
+                        <!--<li><a href="http://www.bit.ly/2wsujqb" target="_blank">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Membership</a></li>-->
+                    </ul>
+                    <!--<ul class="nav navbar-nav navbar-right">-->
+                        <!--data-toggle="modal" data-target="#login"-->
+                        <!--<li><a class="btn btn-light btn-radius btn-brd log" href="" target="_blank"><i class="flaticon-padlock"></i> Member Login</a></li>
+                    </ul>-->
+                </div>
+            </div>
+        </nav>
+    </header>
+  
+
+<!-- Start Slider Area -->
+  <div id="home" class="slider-area">
+    <div class="bend niceties preview-2">
+      <div id="ensign-nivoslider" class="slides">
+        <img src="img/event1.jpg" alt="" title="#slider-direction-1"/>
+        <img src="img/event2.jpg" alt="" title="#slider-direction-2"/>
+        <!--<img src="img/event3.jpg" alt="" title="#slider-direction-3" />-->
+      </div>
+
+      <!-- direction 1 -->
+      <div id="slider-direction-1" class="slider-direction slider-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">FOSU Annual Beauty Pageant Night<span class="slider-h"></br><em>28th December, 2019</em></span></h1>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                  <!--<h2 class="title1">28 December, 2019</h2>-->
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="about.html">About Us</a>
+                  <!--<a class="ready-btn page-scroll" href="#about">Contact Us</a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 2 -->
+     <div id="slider-direction-2" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">FOSU Annual Football Competition<span class="slider-h"></br><em>21st - 31st December, 2019</em></span></h1>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                  <!--<h2 class="title1">28 December, 2019</h2>-->
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="about.html">About Us</a>
+                  <!--<a class="ready-btn page-scroll" href="#about">Contact Us</a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 3 -->
+      <!--<div id="slider-direction-3" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">-->
+                <!-- layer 1 -->
+                <!--<div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">The Best business Information </h2>
+                </div>-->
+                <!-- layer 2 -->
+                <!--<div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Helping Business Security  & Peace of Mind for Your Family</h1>
+                </div>-->
+                <!-- layer 3 -->
+                <!--<div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="#services">See Services</a>
+                  <a class="ready-btn page-scroll" href="#about">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <!-- End Slider Area -->
+
+    <div id="overviews" class="section wb" style="padding-top: 0px;">
+        <div class="container" id="aboutus">
+            <div class="section-title row text-center">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3>About Us</h3>
+                    <p class="lead">The name FOSU is an acronym for Federation of Ogidi student union. FOSU became a registered union in 2007. The Union was formed for the purpose of promoting justice and equity within students in Ogidi kingdom...<a href="about.html" class="read-lnk">Read more</a></p>
+                </div>
+            </div>
+            <!-- end title -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">
+                        <h4>Our Vision</h4>
+                        <p><img src="img/vision.png" class="img-responsive"></p>
+                        <p class="lead">To ensure Justice, Equity and Fairness</p>
+                    </div>
+                    <!-- end messagebox -->
+                </div>
+                <!-- end col -->
+                <div class="col-md-6">
+                    <div class="message-box">
+                        <h4>Our Mission</h4>
+                        <p><img src="img/mission.png" class="img-responsive"></p>
+                        <p class="lead">To provide optimum welfarism among youths</p>
+                    </div>
+                    <!-- end messagebox -->
+                </div>
+                <!-- end col -->
+                <div class="col-md-2 col-md-offset-5">
+                    <a href="about.html" data-scroll="" class="btn btn-light btn-radius btn-brd grd1 effect-1">Read More</a>
+                </div>
+            </div>
+            <!-- end row -->
+            <hr class="invis">
+            <hr class="hr3">
+
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end section -->
+
+
+  <div id="hosting" class="section wb" style="background-color: #161F37">
+<div class="container">
+<div class="section-title text-center">
+                <h3 class="text-light">Our Responsibilities</h3>
+
+            </div>            
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12" style="padding:20px">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-briefcase global-radius effect-1 alignleft"></i>
+                        <h3 class="text-light">Programs and Services</h3>
+                        <p class="res-p">We provide program and services that meets the daily need of our constitution.</p>
+                    </div>
+                    <!-- end icon-wrapper -->
+                </div>
+                <!-- end col -->
+
+                <div class="col-md-6 col-sm-6 col-xs-12" style="padding:20px">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-book global-radius effect-1 alignleft"></i>
+                        <h3 class="text-light">Education and Entertainment</h3>
+                        <p class="res-p">We provide Educational and Entertainment activities to the community.</p>
+                    </div>
+                    <!-- end icon-wrapper -->
+                </div>
+                <!-- end col -->
+                <div class="col-md-6 col-sm-6 col-xs-12" style="padding:20px">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-home global-radius effect-1 alignleft"></i>
+                        <h3 class="text-light">Welfarism</h3>
+                        <p class="res-p">To solve student problem that can either be related to academic life, or have several political and social mission.</p>
+                    </div>
+                    <!-- end icon-wrapper -->
+                </div>
+
+                <!-- end col -->
+                <div class="col-md-6 col-sm-6 col-xs-12" style="padding:20px">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-certificate global-radius effect-1 alignleft"></i>
+                        <h3 class="text-light">Equity and Fairness</h3>
+                        <p class="res-p">To give Justice, Equity and Fairness through Learning.</p>
+                    </div>
+                    <!-- end icon-wrapper -->
+                </div>
+                <!-- end col -->
+
+                <!--<div class="col-md-6 col-sm-6 col-xs-12" style="padding:20px">
+                    <div class="icon-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s; animation-name: fadeIn;">
+                        <i class="fa fa-bank global-radius effect-1 alignleft"></i>
+                        <h3>Home Ownership Schemes</h3>
+                        <p class="res-p">you'll enjoy home ownership schemes.</p>
+                    </div>-->
+                    <!-- end icon-wrapper -->
+               <!-- </div>-->
+                <!-- end col -->
+
+                <!--<div class="col-md-6 col-sm-6 col-xs-12" style="padding:20px">
+                    <div class="icon-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeIn;">
+                        <i class="fa fa-money global-radius effect-1 alignleft"></i>
+                        <h3>Mentorship Programs</h3>
+                        <p class="res-p">Access to alot of Mentorship Programs.</p>
+                    </div>-->
+                    <!-- end icon-wrapper -->
+                <!--</div>-->
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+    </div>
+
+
+    <div id="hosting" class="section wb" style="background: rgb(248, 248, 248)">
+        <div class="container" id="team">
+            <div class="section-title text-center">
+                <h3>Our Executives</h3>
+                <p class="lead">Meet FOSU past Executives</p>
+            </div>
+            <!-- end title -->
+
+            <div class="col-md-12">
+
+                <div class="row team-row">
+                    <div class="col-md-4 col-sm-6 team-wrap">
+                        <div class="team-member text-center">
+                            <div class="team-img">
+                               <img src="img/pre1.jpg" alt="">
+                                <div class="overlay-team">
+                                    <div class="team-details text-center">
+                                        <p>Geology graduate of Kogi State University</p>
+                                        <p><span class=""><i class="fa fa-compass i-icon"></i></span> Ileteju Ogidi</p>
+                                        <div class="socials mt-20">
+                                            <a href="">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa fa-google-plus"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="team-title">Comr. Tolorunju Peter</h6>
+                            <span>2019 President</span>
+                        </div>
+                    </div>
+                    <!-- end team member -->
+                    <div class="col-md-4 col-sm-6 team-wrap">
+                        <div class="team-member text-center">
+                            <div class="team-img">
+                                <img src="img/pre2.jpg" alt="">
+                                <div class="overlay-team">
+                                    <div class="team-details text-center">
+                                        <p>Accounting graduate of Federal Polytechnic Bida</p>
+                                        <p><span class=""><i class="fa fa-compass i-icon"></i></span> Igah Ogidi</p>
+                                        <div class="socials mt-20">
+                                            <a href="">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa fa-google-plus"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="team-title">Comr. Oshe Rhoda</h6>
+                            <span>2018 President</span>
+                        </div>
+                    </div>
+                    <!-- end team member -->
+                    <div class="col-md-4 col-sm-6 team-wrap">
+                        <div class="team-member last text-center">
+                            <div class="team-img">
+                                <img src="img/pre3.jpg" alt="">
+                                <div class="overlay-team">
+                                    <div class="team-details text-center">
+                                        <p>Home Science graduate of  Kogi state University</p>
+                                        <p><span class=""><i class="fa fa-compass i-icon"></i></span> Okoro Ogidi</p>
+                                        <div class="socials mt-20">
+                                            <a href="">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa fa-google-plus"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa fa-envelope"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="team-title">Comr. Ajibade Eniola</h6>
+                            <span>2017 President</span>
+                        </div>
+                    </div>
+                    <!-- end team member -->
+                    <div class="row section-title">
+                        <div class="col-md-12" style="margin-top:40px;"><a href="executives.html" data-scroll="" class="btn btn-light grd1 effect-1 btn-radius btn-brd">View More</a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end section -->
+<div id="hosting" class="section wb" style="background-color: #161F37">
+<div class="container">
+<div class="section-title text-center">
+                <h3 class="text-light">Our Activities</h3>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12" style="padding: 20px;">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-bullhorn global-radius effect-1 alignleft"></i>
+                        <h3 class="text-light">Annual football competition</h3>
+                        <p class="res-p">Football competition is one of the activities of FOSU. The competition was named after Chief APS Arogundade.</p>
+                    </div>
+                    <!-- end icon-wrapper -->
+                </div>
+                <!-- end col -->
+                 <div class="col-md-6 col-sm-6 col-xs-12" style="padding: 20px;">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-bullhorn global-radius effect-1 alignleft"></i>
+                        <h3 class="text-light">Annual Congress</h3>
+                        <p class="res-p">The annual congress usually comes up ones in a year during the festive period, which include election of new executives and handing over.</p>
+                    </div>
+                    <!-- end icon-wrapper -->
+                </div>
+                <!-- end col -->
+                <div class="col-md-6 col-sm-6 col-xs-12" style="padding: 20px;">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-bullhorn global-radius effect-1 alignleft"></i>
+                        <h3 class="text-light">Beauty Pageant Night</h3>
+                        <p class="res-p">The beauty pageant night (Miss Fosu) usually comes up every 28th of December.</p>
+                    </div>
+                    <!-- end icon-wrapper -->
+                </div>
+                <!-- end col -->
+                <div class="col-md-6 col-sm-6 col-xs-12" style="padding: 20px;">
+                    <div class="icon-wrapper">
+                        <i class="fa fa-bullhorn global-radius effect-1 alignleft"></i>
+                        <h3 class="text-light">Tutorial, Quiz and Debate</h3>
+                        <p class="res-p">We organize tutorial class, quiz and debate competion for secondary school students.</p>
+                    </div>
+                    <!-- end icon-wrapper -->
+                </div>
+
+                <!-- end col -->
+             
+            </div>
+            <!-- end row -->
+</div>
+</div>
+<div id="hosting" class="section wb" style="background: rgb(248, 248, 248)">
+<div class="container">
+<div class="section-title text-center">
+	<hr class="invis">
+                <h3>Upcoming Event</h3>
+
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <div class="icon-wrapper">
+                        <img src="img/event1.jpg" class="img-responsive">
+                    </div>
+                    <!-- end icon-wrapper -->
+                </div>
+                <!-- end col -->
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div>
+                        <h3 class="text-center">Beauty Pageant Night (Miss FOSU)</h3>
+                        <p class="event-p text-center">Miss FOSU beauty pageant contestant(s) must have duly completed atleast two (2) semesters of academic session in any recognized tertiary institution.</p>
+                        <p class="event-p text-center">Contestants shall pay a non refundable fee as determined by the union executive.</p>
+                    <br><p class="event-p text-center">Interested in Miss FOSU beauty pageant contest? <span><a href="https://docs.google.com/forms/d/1FCkcuYQ6wOO5xozOdZHwo2YXHKxSNSIvDRhQy7LUObY" class="read-lnk">Click Here</a></span> to register.</p>
+
+                    </div>
+                    <!-- end icon-wrapper -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+</div>
+</div>
+
+
+    <div id="support" class="section wb">
+        <div class="container">
+            <div class="section-title text-center">
+            	<hr class="invis">
+                <h3>Want to reach us? We are available 24/7!</h3>
+                <p class="lead">For Enquiry, Sponsorship and partnership please fill out the form below to get in touch with us</p>
+            </div>
+            <!-- end title -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="contact_form">
+                        <div id="message"></div>
+                        <form action="contact-handler.php" onsubmit="return(validateForm());" method="POST" role="form" name="myForm" class="row">
+                            <fieldset class="row-fluid">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
+                                </div>
+                              
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                    <button type="submit" name="submit" class="btn btn-light btn-radius btn-brd grd1 btn-block">Submit</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+
+    <section class="section nopad cac text-center">
+        <a href="https://docs.google.com/forms/d/1FCkcuYQ6wOO5xozOdZHwo2YXHKxSNSIvDRhQy7LUObY">
+            <h3>Interested in Miss FOSU beauty pageant competition? click here to register</h3>
+        </a>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                        	<hr>
+                        	<h3>Who We Are</h3>
+                          <hr>
+                        </div>
+                        <p>Federation of Ogidi Student Union goal is to protect overall interest of all Ogidi students(FOSU) when necessary and to work in collaboration with all the indigene of Ogidi land (Home and abroad) for economic, social, cultural and educational development of Ogidi land.</p>
+                    </div>
+                    <!-- end clearfix -->
+                </div>
+                <!-- end col -->
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                        	<hr>
+                            <h3>Information Link</h3>
+                            <hr>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="about.html">About Us </a></li>
+                            <li><a href="executives.html">Executives</a></li>
+                            <li><a href="biography.html">Biography</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <!-- end links -->
+                    </div>
+                    <!-- end clearfix -->
+                </div>
+                <!-- end col -->
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                        	<hr>
+                            <h3>Contact Details</h3>
+                            <hr>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="mailto:fosuogidi@gmail.com"> fosuogidi@gmail.com</a></li>
+                            <li><a href="http://fosu.com">www.fosuogidi.com</a></li>
+                            <li> +2349055844888</li>
+                        </ul>
+                        <!-- end links -->
+                    </div>
+                    <!-- end clearfix -->
+                </div>
+                <!-- end col -->
+                <div class="col-md-2 col-sm-2 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                        	<hr>
+                            <h3>Check Us On</h3>
+                            <hr>
+                        </div>
+                        <ul class="footer-links">
+                            <li style="font-size:13px;"><a href="https://www.facebook.com/fosu.ogidi.9" target="_blank"><i class="fa fa-facebook"></i> @fosuogidi</a></li>
+                        </ul>
+                        <!-- end links -->
+                    </div>
+                    <!-- end clearfix -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </footer>
+    <!-- end footer -->
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-company-name">Copyright &copy; 2019, FOSU All Rights Reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <form method="get" action="http://rems.org.ng/index.html#">
+                        <input placeholder="Subscribe our newsletter.." name="search">
+                        <i class="fa fa-envelope-o"></i>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end copyrights -->
+    <a href="index.html#" id="scroll-to-top" class="dmtop global-radius" style="bottom: 75px;"><i class="fa fa-angle-up"></i></a>
+    <!-- ALL JS FILES -->
+    <script src="js/all.js.download"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js.download"></script>
+  <!-- Contact Form JavaScript File -->
+
+   <script src="contact.js"></script>
+
+ <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <!--<script src="lib/bootstrap/js/bootstrap.min.js"></script>-->
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/knob/jquery.knob.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/parallax/parallax.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+  <script src="lib/appear/jquery.appear.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+   <script src="js/main.js"></script>
+
+
+</body></html>
